@@ -1,0 +1,7 @@
+title: Mateo Ronquillo
+description: Bitácora de aprendizaje, software y tecnología
+lang: es
+markdown: kramdown
+permalink: /:categories/:title/
+plugins: []
+
