@@ -1,15 +1,17 @@
 ---
 layout: post
-title: "EduMonitorAI: integración de datos académicos para apoyar la enseñanza"
+title: "EduMonitorAI: integración de datos para el análisis académico"
 date: 2026-10-27 09:00:00 -0500
-category: Proyectos
-excerpt: "Diseño de una solución que integra datos de Moodle para facilitar su análisis y generar información útil para docentes."
+category: Tecnología educativa
+excerpt: "Diseño de una solución que integra Moodle y organiza datos académicos para habilitar análisis de apoyo docente."
 ---
 
-**EduMonitorAI** es un proyecto orientado a integrar información de Moodle con herramientas de análisis del rendimiento académico. Su propósito es organizar datos de cursos y actividades para facilitar su consulta y contribuir a la elaboración de análisis y recomendaciones para docentes.
+**EduMonitorAI** es una iniciativa orientada al análisis del rendimiento académico mediante la integración de datos procedentes de Moodle. El propósito es preparar información consistente para generar análisis y recomendaciones que apoyen el trabajo docente.
 
-El desarrollo contempla distintos componentes: control de acceso para docentes autorizados, normalización y almacenamiento de calificaciones y actividades, y servicios destinados al análisis y la generación de reportes. La calidad de la integración depende de que los datos correspondan al curso adecuado, mantengan su contexto y puedan procesarse de forma consistente.
+El alcance técnico contempla el acceso exclusivo para docentes autorizados, la normalización de calificaciones y actividades, y la organización de servicios de análisis y reportes. Estos componentes requieren mantener la relación entre cada docente, sus cursos y los datos académicos correspondientes.
 
-Como parte del proyecto he trabajado en historias de usuario, criterios de aceptación, diagramas de arquitectura y secuencia, así como en la organización de servicios. Estas actividades permiten conectar las necesidades de los usuarios con decisiones técnicas verificables y considerar aspectos de autorización y protección de la información desde el diseño.
+El trabajo de diseño incluye historias de usuario, criterios de aceptación, diagramas de arquitectura y secuencia, y una estructura de servicios. Esta documentación conecta las necesidades del producto con las decisiones técnicas y permite revisar el alcance de cada iteración.
 
-El proyecto continúa en desarrollo. Las siguientes iteraciones permiten validar requisitos, refinar la integración con Moodle y evaluar la utilidad de los análisis para el contexto educativo.
+**Áreas abordadas:** integración con Moodle, control de acceso, normalización de datos, arquitectura de servicios y análisis académico.
+
+El proyecto continúa en desarrollo, con atención a la confiabilidad de la información, la autorización de acceso y la utilidad de los resultados para el contexto educativo.

@@ -1,15 +1,15 @@
 ---
 layout: post
-title: "Diseño de una aplicación para la gestión de cambios"
+title: "Aplicación web para la gestión de solicitudes de cambio"
 date: 2026-10-20 09:00:00 -0500
-category: Proyectos
-excerpt: "Implementación de un flujo digital para registrar solicitudes de cambio, gestionar responsabilidades y conservar un historial de decisiones."
+category: Desarrollo de software
+excerpt: "Implementación de un flujo de control de cambios con roles diferenciados, seguimiento de estados e historial de decisiones."
 ---
 
-El desarrollo de una aplicación para la **gestión de cambios** requiere traducir un proceso organizacional en reglas, responsabilidades y estados comprensibles. El objetivo del proyecto fue estructurar un flujo que permita registrar solicitudes, evaluarlas y dar seguimiento a su resolución.
+Este proyecto convierte un proceso de control de cambios en una aplicación web para registrar, revisar y dar seguimiento a solicitudes operativas y técnicas.
 
-La implementación utiliza FastAPI para la API, una interfaz web y SQLite para la persistencia de solicitudes. Los perfiles de usuario, administrador y desarrollador cuentan con permisos diferenciados. El flujo contempla revisión, aprobación, implementación, pruebas y cierre, con registro de las decisiones asociadas.
+La solución utiliza **FastAPI** para la API, una interfaz web y **SQLite** para la persistencia. El modelo contempla perfiles de usuario, administrador y desarrollador, con permisos asociados a sus responsabilidades. Las solicitudes recorren estados de revisión, aprobación, implementación, pruebas y cierre; las decisiones relevantes quedan registradas en un historial.
 
-Una parte central del trabajo consistió en representar las reglas del proceso en el sistema: determinar el acceso a cada solicitud, definir la información necesaria para evaluarla, establecer las condiciones de asignación y conservar la trazabilidad. La consistencia entre permisos, datos y estados es esencial para que la aplicación refleje correctamente el procedimiento.
+Un aspecto central fue traducir las reglas del proceso a validaciones concretas: control de acceso a las solicitudes, requisitos para aprobar, asignación de responsables y conservación del contexto de cada petición. El diseño vincula interfaz, permisos y flujo de trabajo para mantener trazabilidad durante todo el ciclo.
 
-Este proyecto reforzó la importancia de modelar primero las responsabilidades y transiciones del proceso. Esa base ayuda a diseñar una interfaz más clara y una implementación más mantenible.
+**Áreas abordadas:** desarrollo backend, diseño de APIs, persistencia de datos, control de acceso, modelado de procesos y experiencia de usuario.
