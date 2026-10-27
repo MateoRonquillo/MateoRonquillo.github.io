@@ -1,6 +1,6 @@
 # Bitácora de Mateo Ronquillo
 
-Blog personal estático, en español, compatible con GitHub Pages y Jekyll. No necesita plugins externos ni un paso de compilación personalizado.
+Sitio personal y portafolio estático, en español, compatible con GitHub Pages y Jekyll. No necesita plugins externos ni un paso de compilación personalizado.
 
 ## Publicarlo en GitHub Pages
 
@@ -19,3 +19,4 @@ Si usas un repositorio de proyecto, Pages aplica el subpath automáticamente med
 - Ajusta colores y estilos en `assets/css/style.css`.
 
 Las notas iniciales se redactaron a partir de proyectos y temas trabajados: EduMonitorAI, gestión de cambios, bases de datos, redes y metodologías ágiles. Revisa cualquier dato o formulación antes de publicarlo.
+
